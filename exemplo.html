@@ -5,27 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste</title>
+
+    <script>
+        let a = "carro";
+        var b = 1;
+        const c = "casa";
+
+        function clicknobotao (){
+
+            alert("olá mundo");
+        }
+
+        function atualizaçaotexto(){
+            let input = document.getElementById ("meuinput");
+            let p = document.getElementById ("para");    
+            p.textContent = input.value;
+            console.log ("oi")
+        }
+
+    </script>
+<style>
+
+    body{
+        background-color: #eee;
+    }
+
+    h1{color: aqua;
+        background-color: black;
+        font-family: Tahoma;
+        font-size: 32px;
+            }
+
+    #meuinput{color: blue;
+    background-color:yellow;} 
+    
+    p{text-align: center;
+
+    }
+
+    img { 
+        max-width: 100%;
+        border: solid 2px #000;
+        padding: 2px;   
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .margem-minima
+    {
+        margin-top: 20px;
+        margin-bottom: 20px; 
+    }
+</style>
+
 </head>
 <body>
     
     <Div>
         <h1>Titulo</h1>
         <h2>Titulo 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum dolor obcaecati alias dolore esse ipsum molestiae nisi magni aut suscipit possimus nobis eos earum iusto, amet enim sint ducimus quis!</p>
+        <p id= "para">texto </p> 
         <span> informação </span>
     </Div>
     <img src="img.jpg" alt="">
     <br>
     <a href="https://google.com.br">link para o google</a>
    
-<div>
-    <input type="date">
+<div class="margem-minima">
+    <input id = "meuinput" type="text" oninput="atualizaçaotexto()"/>
+</div>    
+<div class="margem-minima">   
     <select>
         <option> Opção 1</option>
         <option> Opção 2</option>
         <option> Opção 3</option>
     </select>
-    <button> texto do botão </button>
+</div>
+<div class="margem-minima">
+    <button onclick="clicknobotao()" > texto do botão </button>
 </div>
 </body>
 </html>
