@@ -1,2 +1,18 @@
 
 teste hackaton
+
+ls/dir: mostra os arquivos que estao na pasta 
+
+git status  :mostra o arquivo que foi modificado
+
+git diff  : monstra o que foi mudado no codigo
+
+git add : vai p o index ( a ser commited)
+
+git add. : vai todos os arquivos da pasta para o index/stage
+
+git add -A : adiciona todas as mudanças feitas
+
+git reset ou git reset <arquivo> : remover do index
+
+testegit
