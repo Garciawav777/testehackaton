@@ -15,7 +15,14 @@ git add -A : adiciona todas as mudanças feitas
 
 git reset ou git reset <arquivo> : remover do index
 
-testegit
+git commit -m : comentario 
 
-teste de pull
+git commit -am: faz a confirmação de mudanças 
+
+git push : envia a mudança para o repositorio
+
+git fetch : verifica se a versao esta atualizada 
+
+git pull : busca a versao atualizada
+
 
