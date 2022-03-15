@@ -16,3 +16,6 @@ git add -A : adiciona todas as mudanças feitas
 git reset ou git reset <arquivo> : remover do index
 
 testegit
+
+teste de pull
+
