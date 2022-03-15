@@ -17,7 +17,7 @@ git reset ou git reset <arquivo> : remover do index
 
 git commit -m : comentario 
 
-git commit -am: faz a confirmação de mudanças 
+git commit -am: faz a confirmação de mudanças (lembrar de botar o comentario entre " ")
 
 git push : envia a mudança para o repositorio
 
