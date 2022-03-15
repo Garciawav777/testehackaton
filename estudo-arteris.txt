@@ -25,4 +25,8 @@ git fetch : verifica se a versao esta atualizada
 
 git pull : busca a versao atualizada
 
+git checkout . : para descartar as alterações (pode ser feito com arquivo especifico feito com --) 
+
+
+
 
