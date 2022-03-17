@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio</title>
+</head>
+
+<style>
+    body {
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    background-color: blue;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hamburguer {
+    margin-top: 5px;
+    border-top: 2px solid;
+    width: 20px;
+}
+
+
+.container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+img {
+    width: 80vw;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px solid;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.397);
+    border-left: 2px solid rgba(0, 0, 0, 0.397);
+    border-right: 2px solid rgba(0, 0, 0, 0.397);
+    border-top: 2px solid rgba(0, 0, 0, 0.397);
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    height: 30px;
+    
+}
+</style>
+
+<body>
+
+        <header>
+            <div class="menu">
+                <span class="hamburguer"></span>
+                <span class="hamburguer"></span>
+                <span class="hamburguer"></span>
+            </div>
+            <p> Projeto </p>
+        </header>
+        
+        <div class="container">
+            <img src="opala.jpg" alt="imagem do carro">        
+            <div class="info">
+                <div class="data">
+                    <p>São Gonçalo, Rio de janeiro</p>
+                    <p>40.000</p>
+                </div>
+                <div class="data">
+                    <p>Anderson dos Santos</p>
+                    <p>Venda</p>
+                </div>
+            </div>
+        </div>
+    
+</body>
+</html>
